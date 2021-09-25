@@ -5,6 +5,7 @@ TagManager:
   serializedVersion: 2
   tags:
   - ground
+  - Jugador
   layers:
   - Default
   - TransparentFX
@@ -39,6 +40,9 @@ TagManager:
   - 
   - 
   m_SortingLayers:
+  - name: FondoCero
+    uniqueID: 1699161189
+    locked: 0
   - name: Fondo
     uniqueID: 1855709935
     locked: 0
