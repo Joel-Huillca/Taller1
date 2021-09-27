@@ -6,6 +6,7 @@ TagManager:
   tags:
   - ground
   - Jugador
+  - trampolin
   layers:
   - Default
   - TransparentFX

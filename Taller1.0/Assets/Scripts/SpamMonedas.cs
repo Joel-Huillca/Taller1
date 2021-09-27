@@ -12,9 +12,9 @@ public class SpamMonedas : MonoBehaviour
     void Update()
     {
         timer += Time.deltaTime;
-        if(timer >= 2f){
+        if(timer >= 8f){
             timer = 0;
-            float x = Random.Range(-30f, 30f);
+            float x = Random.Range(-8f, 6.63f);
             Vector3 position = new Vector3(x, 0, 0);
             Quaternion rotation = new Quaternion();
             Instantiate(coinPrefab, position, rotation);

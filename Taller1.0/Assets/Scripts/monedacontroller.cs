@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class monedacontroller : MonoBehaviour
 {
+  
    private void OnTriggerEnter2D(Collider2D collision) {
        Destroy(gameObject);
    }

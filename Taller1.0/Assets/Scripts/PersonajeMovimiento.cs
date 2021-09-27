@@ -33,7 +33,7 @@ public class PersonajeMovimiento : MonoBehaviour
 
       if(Input.GetKeyDown("up") && canJump){
         canJump = false;
-        gameObject.GetComponent<Rigidbody2D>().AddForce(new Vector2(0, 240f));
+        gameObject.GetComponent<Rigidbody2D>().AddForce(new Vector2(0, 360f));
       }
        }
         private void OnCollisionEnter2D(Collision2D collision) {
